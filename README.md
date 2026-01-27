@@ -20,6 +20,8 @@ chromedriver --version
 
 pip install selenium colorama requests
 
+pkg install git
+
 git clone https://github.com/ariyanahamed282/FACEBOOK-PC-CLONE.git
 
 cd FACEBOOK-PC-CLONE
