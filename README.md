@@ -13,10 +13,7 @@ pkg update -y && pkg upgrade -y
 
 pkg install x11-repo -y
 
-pkg install python git chromium chromedriver -y
-ls /data/data/com.termux/files/usr/bin | grep chrom
-ln -sf /data/data/com.termux/files/usr/bin/chromium-browser /data/data/com.termux/files/usr/bin/chromium
-chromedriver --version
+pkg install chromium -y && ln -sf /data/data/com.termux/files/usr/bin/chromium-browser /data/data/com.termux/files/usr/bin/chromium
 
 pip install selenium colorama requests
 
