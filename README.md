@@ -15,9 +15,7 @@ pkg update && pkg upgrade
 
 pkg install x11-repo
 
-pkg install chromium -y
-
-ln -s /data/data/com.termux/files/usr/bin/chromium-browser /data/data/com.termux/files/usr/bin/chromium
+pkg install chromium -y && ln -s /data/data/com.termux/files/usr/bin/chromium-browser /data/data/com.termux/files/usr/bin/chromium
 
 pip install selenium webdriver-manager colorama
 
