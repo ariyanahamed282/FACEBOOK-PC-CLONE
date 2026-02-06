@@ -22,8 +22,7 @@ pip install selenium webdriver-manager colorama
 
 pip install colorama
 
-
-pip install git
+pkg install git
 
 
 git clone https://github.com/ariyanahamed282/FACEBOOK-PC-CLONE.git
