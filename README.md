@@ -24,6 +24,8 @@ pip install colorama
 
 pkg install git
 
+rm -rf FACEBOOK-PC-CLONE
+
 
 git clone https://github.com/ariyanahamed282/FACEBOOK-PC-CLONE.git
 
