@@ -15,23 +15,23 @@ pkg update && pkg upgrade
 
 pkg install x11-repo
 
-pkg install chromium
-
-ls /data/data/com.termux/files/usr/bin | grep chrom
-
+pkg install chromium -y
 ln -s /data/data/com.termux/files/usr/bin/chromium-browser /data/data/com.termux/files/usr/bin/chromium
-
-chromedriver --version
 
 
 pip install selenium webdriver-manager colorama
 
+
 pip install colorama
+
 
 pip install git
 
+
 git clone https://github.com/ariyanahamed282/FACEBOOK-PC-CLONE.git
 
+
 cd FACEBOOK-PC-CLONE
+
 
 python main.py
