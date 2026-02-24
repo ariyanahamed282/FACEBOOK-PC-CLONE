@@ -7,30 +7,24 @@ telegram : @Ariyan_Ahamed00
 
 termux-setup-storage
 
-termux-change-repo
+termux-change-selenium*) Mirrors in Asia   select ]
 
-(*) Mirrors in Asia   select
+pkg update && pkg upgrade -y
 
-pkg update && pkg upgrade
+pkg install python -y
 
-pkg install x11-repo
+pkg install git -y
 
-pkg install chromium -y && ln -s /data/data/com.termux/files/usr/bin/chromium-browser /data/data/com.termux/files/usr/bin/chromium
+pkg install x11-repo -y
 
-pip install selenium webdriver-manager colorama
+pkg install tur-repo -y
 
+pkg install firefox -y
 
-pip install colorama
+pkg install firefox geckodriver -y
 
-pkg install git
-
-rm -rf FACEBOOK-PC-CLONE
-
+pip install requests flask colorama selenium
 
 git clone https://github.com/ariyanahamed282/FACEBOOK-PC-CLONE.git
-
-
-cd FACEBOOK-PC-CLONE
-
 
 python main.py
