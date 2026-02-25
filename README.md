@@ -27,4 +27,6 @@ pip install requests flask colorama selenium
 
 git clone https://github.com/ariyanahamed282/FACEBOOK-PC-CLONE.git
 
+cd FACEBOOK-PC-CLONE
+
 python main.py
